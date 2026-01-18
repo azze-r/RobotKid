@@ -41,7 +41,6 @@ class BonneReponseActivity : AppCompatActivity() {
             }
         }*/
 
-        binding.bubble.visibility = View.VISIBLE
         binding.txtInstructions.visibility = View.VISIBLE
 
         binding.cardHome.setOnClickListener {

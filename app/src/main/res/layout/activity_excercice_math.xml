@@ -8,6 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:fitsSystemWindows="true"
     android:layout_weight="6"
     tools:context=".MainActivity">
     <ImageView
@@ -20,6 +21,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:contentDescription="robot welcome" />
+
+    <!-- NIVEAU -->
+    <TextView
+        android:id="@+id/txtNiveau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Niveau 1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"/>
+
+    <!-- PROGRESSION -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:max="3"
+        android:progress="0"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="10dp"/>
 
 
     <TextView
