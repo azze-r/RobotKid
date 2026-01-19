@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Le fond de la barre (quand elle est vide) -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dp" />
+            <solid android:color="#40FFFFFF" /> <!-- Blanc semi-transparent -->
+        </shape>
+    </item>
+
+    <!-- La partie remplie de la barre -->
+    <item android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <shape>
+                <corners android:radius="10dp" />
+                <solid android:color="#FFD700" /> <!-- Couleur Or / Jaune -->
+            </shape>
+        </scale>
+    </item>
+
+</layer-list>

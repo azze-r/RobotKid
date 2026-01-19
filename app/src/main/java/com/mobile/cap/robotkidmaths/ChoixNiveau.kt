@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.mobile.cap.robotkidmaths.databinding.ActivityBonneReponseBinding
 import com.mobile.cap.robotkidmaths.databinding.ActivityChoixNiveauBinding
 
 class ChoixNiveau : AppCompatActivity() {
@@ -52,7 +51,4 @@ class ChoixNiveau : AppCompatActivity() {
         }
     }
 
-    override fun onBackPressed() {
-        //
-    }
 }

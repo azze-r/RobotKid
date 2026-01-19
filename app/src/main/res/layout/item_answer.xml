@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_margin="6dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bubble"
+        android:scaleType="fitXY"
+        android:contentDescription="bubble"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/arbutus"/>
+</FrameLayout>
